@@ -8,10 +8,16 @@ export default function Home() {
 			<div className="w-full min-h-screen flex justify-center items-center">
 				<HeroHighlightDemo />
 			</div>
-			<div className="w-full min-h-screen flex justify-center items-center">
+			<div className="w-full min-h-screen flex flex-col justify-center items-center">
+				<h2 className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold  text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto my-[5vh]">
+					Features
+				</h2>
 				<GettingStarted />
 			</div>
-			<div className="w-full min-h-screen flex justify-center items-center">
+			<div className="w-full min-h-screen flex  flex-col justify-center items-center">
+				<h2 className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold  text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto my-[5vh]">
+					Featured Podcasts
+				</h2>
 				<FeaturePod />
 			</div>
 		</main>
