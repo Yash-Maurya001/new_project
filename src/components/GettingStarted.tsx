@@ -53,7 +53,7 @@ const content = [
 ]
 export function GettingStarted() {
 	return (
-		<div className="p-10">
+		<div className="p-10 bg-gray-800 rounded-xl">
 			<StickyScroll content={content} />
 		</div>
 	)
